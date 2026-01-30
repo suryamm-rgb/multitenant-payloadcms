@@ -28,8 +28,10 @@ const eslintConfig = [
           caughtErrorsIgnorePattern: '^(_|ignore)',
         },
       ],
+      'no-console': ['error', { allow: ['warn', 'error'] }],
     },
   },
+
   {
     ignores: ['.next/'],
   },
